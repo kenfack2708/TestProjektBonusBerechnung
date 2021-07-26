@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestBonusBerechnung" >
+
+  <test name="ZugehoerigkeitGroesser_5" >
+    <classes>
+       <class name="com.practice.TestProjektBonusBerechnung.ZugehoerigkeitGroesser_5" />
+    </classes>
+  </test>
+ 
+</suite>
