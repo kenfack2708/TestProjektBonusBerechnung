@@ -35,7 +35,9 @@ public class ZugehoerigkeitGroesser_5 {
 
         
         txtName.sendKeys(Name);
+        Thread.sleep(1500);
         txtZugehoerigkeit.sendKeys(Zugoerigkeit);
+        Thread.sleep(1500);
         txtGehalt.sendKeys(Gehalt);
         Thread.sleep(5000);
 	    btnBonusBerechnen.click();
@@ -43,7 +45,7 @@ public class ZugehoerigkeitGroesser_5 {
 	  
 	    List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + SollErgebnis + "')]"));
 	    Assert.assertTrue(list.size() > 0);
-    	System.out.println("Test Passed. Execution completed1");
+    	System.out.println("Test Passed. Execution completed");
         Thread.sleep(5000);
 		
         //close Fire fox
