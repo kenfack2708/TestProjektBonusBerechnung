@@ -39,7 +39,7 @@ public class ZugehoerigkeitGroesser_5 {
         txtZugehoerigkeit.sendKeys(Zugoerigkeit);
         Thread.sleep(1500);
         txtGehalt.sendKeys(Gehalt);
-        Thread.sleep(5000);
+        Thread.sleep(2000);
 	    btnBonusBerechnen.click();
 	  
 	  
