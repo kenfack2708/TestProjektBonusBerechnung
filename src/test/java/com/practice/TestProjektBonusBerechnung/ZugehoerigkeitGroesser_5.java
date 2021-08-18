@@ -45,7 +45,7 @@ public class ZugehoerigkeitGroesser_5 {
 	  
 	    List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + SollErgebnis + "')]"));
 	    Assert.assertTrue(list.size() > 0);
-    	System.out.println("Test Passed. Execution completed successfully");
+    	System.out.println("Test Passed. Execution completed");
         Thread.sleep(5000);
 		
         //close Fire fox
