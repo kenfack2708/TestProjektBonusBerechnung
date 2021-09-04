@@ -33,7 +33,6 @@ public class ZugehoerigkeitGroesser_5 {
         WebElement txtGehalt = driver.findElement(By.id("Gehalt"));
         WebElement btnBonusBerechnen = driver.findElement(By.id("Bonusberechnen"));
 
-        
         txtName.sendKeys(Name);
         Thread.sleep(1500);
         txtZugehoerigkeit.sendKeys(Zugoerigkeit);
@@ -41,11 +40,10 @@ public class ZugehoerigkeitGroesser_5 {
         txtGehalt.sendKeys(Gehalt);
         Thread.sleep(2000);
 	    btnBonusBerechnen.click();
-	  
-	  
+	  	  
 	    List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + SollErgebnis + "')]"));
 	    Assert.assertTrue(list.size() > 0);
-    	System.out.println("Test Passed. Execution completed");
+    	System.out.println("Test Passed. Execution completed ");
         Thread.sleep(5000);
 		
         //close Fire fox
