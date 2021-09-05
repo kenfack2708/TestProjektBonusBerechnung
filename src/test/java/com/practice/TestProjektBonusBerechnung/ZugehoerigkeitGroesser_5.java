@@ -18,7 +18,7 @@ public class ZugehoerigkeitGroesser_5 {
     	System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.29.1-win64\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();		
  
- 		String baseUrl = "http://www.localhost:9090/MyDynaamicWebApp-0.0.1-SNAPSHOT/";
+ 		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
         String Name = "Stéphane";
         String Zugoerigkeit = "6";
         String Gehalt = "100000";
