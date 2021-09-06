@@ -160,7 +160,7 @@ public class TestBonusberechnung {
  
  		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
         String Name = "Stéphane";
-        String Zugoerigkeit = "16";
+        String Zugoerigkeit = "21";
         String Gehalt = "100000";
         String SollErgebnis = "Hi Stéphane dein Bonus beträgt 35000.0 Euro";
         
