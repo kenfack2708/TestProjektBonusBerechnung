@@ -52,6 +52,7 @@ public class TestBonusberechnung {
         //close Fire fox
  //       driver.close();
 		}
+	/*
 	@Test
 	public void ZugoehrigkeitGrosser8() throws InterruptedException {
 		
@@ -203,5 +204,5 @@ public class TestBonusberechnung {
 		
         //close Fire fox
         driver.close();
-		}
+		}*/
 }
