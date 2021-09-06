@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 //import net.codejava.javaee.Bonusrechner;
 
-public class TestBonusberechnung {
+public class ZugoehrigkeitGrosser5 {
 	
 
 	@Test
