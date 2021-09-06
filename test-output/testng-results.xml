@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-26T00:06:11Z" name="TestBonusBerechnung" finished-at="2021-07-26T00:06:29Z" duration-ms="18144">
+  <suite started-at="2021-09-06T22:01:16Z" name="Suite" finished-at="2021-09-06T22:01:33Z" duration-ms="16391">
     <groups>
     </groups>
-    <test started-at="2021-07-26T00:06:11Z" name="ZugehoerigkeitGroesser_5" finished-at="2021-07-26T00:06:29Z" duration-ms="18144">
-      <class name="com.practice.TestProjektBonusBerechnung.ZugehoerigkeitGroesser_5">
-        <test-method signature="TestMethod()[pri:0, instance:com.practice.TestProjektBonusBerechnung.ZugehoerigkeitGroesser_5@5082d622]" started-at="2021-07-26T00:06:11Z" name="TestMethod" finished-at="2021-07-26T00:06:29Z" duration-ms="18097" status="PASS">
+    <test started-at="2021-09-06T22:01:16Z" name="Test" finished-at="2021-09-06T22:01:33Z" duration-ms="16391">
+      <class name="com.practice.TestProjektBonusBerechnung.TestBonusberechnung">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.practice.TestProjektBonusBerechnung.TestBonusberechnung@409c54f]" started-at="2021-09-06T22:01:16Z" name="setUpTest" finished-at="2021-09-06T22:01:21Z" duration-ms="4380" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestMethod -->
-      </class> <!-- com.practice.TestProjektBonusBerechnung.ZugehoerigkeitGroesser_5 -->
-    </test> <!-- ZugehoerigkeitGroesser_5 -->
-  </suite> <!-- TestBonusBerechnung -->
+        </test-method> <!-- setUpTest -->
+        <test-method signature="ZugoehrigkeitGrosser5()[pri:0, instance:com.practice.TestProjektBonusBerechnung.TestBonusberechnung@409c54f]" started-at="2021-09-06T22:01:21Z" name="ZugoehrigkeitGrosser5" finished-at="2021-09-06T22:01:32Z" duration-ms="11241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZugoehrigkeitGrosser5 -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.practice.TestProjektBonusBerechnung.TestBonusberechnung@409c54f]" started-at="2021-09-06T22:01:32Z" name="tearDownTest" finished-at="2021-09-06T22:01:33Z" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.practice.TestProjektBonusBerechnung.TestBonusberechnung -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

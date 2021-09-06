@@ -57,13 +57,10 @@ public class TestBonusberechnung {
         Thread.sleep(5000);
 		
 		}
-	/*
+	
 	@Test
 	public void ZugoehrigkeitGrosser8() throws InterruptedException {
-		
-        // declaration and instantiation of objects/variables
-    	System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.29.1-win64\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();		
+			
  
  		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
         String Name = "Stéphane";
@@ -93,15 +90,9 @@ public class TestBonusberechnung {
     	System.out.println("Test Passed. Execution completed");
         Thread.sleep(5000);
 		
-        //close Fire fox
- //       driver.close();
 		}
 	@Test
-	public void ZugoehrigkeitGrosser10() throws InterruptedException {
-		
-        // declaration and instantiation of objects/variables
-    	System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.29.1-win64\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();		
+	public void ZugoehrigkeitGrosser10() throws InterruptedException {	
  
  		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
         String Name = "Stéphane";
@@ -130,16 +121,10 @@ public class TestBonusberechnung {
 	    Assert.assertTrue(list.size() > 0);
     	System.out.println("Test Passed. Execution completed");
         Thread.sleep(5000);
-		
-        //close Fire fox
- //       driver.close();
+
 		}
 	@Test
-	public void ZugoehrigkeitGrosser15() throws InterruptedException {
-		
-        // declaration and instantiation of objects/variables
-    	System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.29.1-win64\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();		
+	public void ZugoehrigkeitGrosser15() throws InterruptedException {	
  
  		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
         String Name = "Stéphane";
@@ -169,15 +154,9 @@ public class TestBonusberechnung {
     	System.out.println("Test Passed. Execution completed");
         Thread.sleep(5000);
 		
-        //close Fire fox
-//        driver.close();
 		}
 	@Test
 	public void ZugoehrigkeitGrosser20() throws InterruptedException {
-		
-        // declaration and instantiation of objects/variables
-    	System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.29.1-win64\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();		
  
  		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
         String Name = "Stéphane";
@@ -207,9 +186,8 @@ public class TestBonusberechnung {
     	System.out.println("Test Passed. Execution completed");
         Thread.sleep(5000);
 		
-        //close Fire fox
-        driver.close();
-		}*/
+
+		}
 	
 	@AfterTest
 	public void tearDownTest() {
