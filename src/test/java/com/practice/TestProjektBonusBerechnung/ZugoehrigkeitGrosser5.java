@@ -15,7 +15,7 @@ public class ZugoehrigkeitGrosser5 {
 	
 
 	@Test
-	public void ZugoehrigkeitGrosser5() throws InterruptedException {
+	public void TestMethod() throws InterruptedException {
 		
         // declaration and instantiation of objects/variables
     	System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.29.1-win64\\geckodriver.exe");
@@ -50,7 +50,7 @@ public class ZugoehrigkeitGrosser5 {
         Thread.sleep(5000);
 		
         //close Fire fox
- //       driver.close();
+        driver.close();
 		}
 	/*
 	@Test
