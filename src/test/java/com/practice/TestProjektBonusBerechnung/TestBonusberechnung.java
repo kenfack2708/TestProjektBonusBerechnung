@@ -7,21 +7,28 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 //import net.codejava.javaee.Bonusrechner;
 
-public class ZugoehrigkeitGrosser5 {
+public class TestBonusberechnung {
 	
-
-	@Test
-	public void TestMethod() throws InterruptedException {
-		
+	public WebDriver driver=null;
+	
+	@BeforeTest
+	public void setUpTest() {
         // declaration and instantiation of objects/variables
     	System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.29.1-win64\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();		
- 
- 		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
+		driver = new FirefoxDriver();	
+	}
+
+	@Test
+	public void ZugoehrigkeitGrosser5() throws InterruptedException {
+		
+	
+  		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
         String Name = "Stéphane";
         String Zugoerigkeit = "6";
         String Gehalt = "100000";
@@ -49,8 +56,6 @@ public class ZugoehrigkeitGrosser5 {
     	System.out.println("Test Passed. Execution completed");
         Thread.sleep(5000);
 		
-        //close Fire fox
-        driver.close();
 		}
 	/*
 	@Test
@@ -205,4 +210,10 @@ public class ZugoehrigkeitGrosser5 {
         //close Fire fox
         driver.close();
 		}*/
+	
+	@AfterTest
+	public void tearDownTest() {
+		//close Fire fox
+	    driver.close();
+	}
 }
