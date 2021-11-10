@@ -51,10 +51,10 @@ public class TestBonusberechnung {
 	public void ZugoehrigkeitGrosser5() throws InterruptedException {		
 	
   		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
-        String Name = "Stéphane";
+        String Name = "Sandrine";
         String Zugoerigkeit = "6";
         String Gehalt = "100000";
-        String SollErgebnis = "Hi Stéphane dein Bonus beträgt 15000.0 Euro";
+        String SollErgebnis = "Hi Sandrine dein Bonus beträgt 15000.0 Euro";
         
         // launch Fire fox and direct it to the Base URL
         driver.get(baseUrl);
@@ -85,10 +85,10 @@ public class TestBonusberechnung {
 			
  
  		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
-        String Name = "Stéphane";
+        String Name = "Sandrine";
         String Zugoerigkeit = "9";
         String Gehalt = "100000";
-        String SollErgebnis = "Hi Stéphane dein Bonus beträgt 20000.0 Euro";
+        String SollErgebnis = "Hi Sandrine dein Bonus beträgt 20000.0 Euro";
         
         // launch Fire fox and direct it to the Base URL
         driver.get(baseUrl);
@@ -117,10 +117,10 @@ public class TestBonusberechnung {
 	public void ZugoehrigkeitGrosser10() throws InterruptedException {	
  
  		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
-        String Name = "Stéphane";
+        String Name = "Sandrine";
         String Zugoerigkeit = "11";
         String Gehalt = "100000";
-        String SollErgebnis = "Hi Stéphane dein Bonus beträgt 25000.0 Euro";
+        String SollErgebnis = "Hi Sandrine dein Bonus beträgt 25000.0 Euro";
         
         // launch Fire fox and direct it to the Base URL
         driver.get(baseUrl);
@@ -149,10 +149,10 @@ public class TestBonusberechnung {
 	public void ZugoehrigkeitGrosser15() throws InterruptedException {	
  
  		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
-        String Name = "Stéphane";
+        String Name = "Sandrine";
         String Zugoerigkeit = "16";
         String Gehalt = "100000";
-        String SollErgebnis = "Hi Stéphane dein Bonus beträgt 31000.0 Euro";
+        String SollErgebnis = "Hi Sandrine dein Bonus beträgt 30000.0 Euro";
         
         // launch Fire fox and direct it to the Base URL
         driver.get(baseUrl);
@@ -181,10 +181,10 @@ public class TestBonusberechnung {
 	public void ZugoehrigkeitGrosser20() throws InterruptedException {
  
  		String baseUrl = "http://www.localhost:9090/BonusBerechnung-0.0.1-SNAPSHOT/";
-        String Name = "Stéphane";
+        String Name = "Sandrine";
         String Zugoerigkeit = "21";
         String Gehalt = "100000";
-        String SollErgebnis = "Hi Stéphane dein Bonus beträgt 35000.0 Euro";
+        String SollErgebnis = "Hi Sandrine dein Bonus beträgt 35000.0 Euro";
         
         // launch Fire fox and direct it to the Base URL
         driver.get(baseUrl);
