@@ -6,11 +6,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.ProfilesIni;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import java.io.File;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 //import net.codejava.javaee.Bonusrechner;
 
 public class TestBonusberechnung {
@@ -21,7 +25,11 @@ public class TestBonusberechnung {
 	public void setUpTest() {
         // declaration and instantiation of objects/variables
     	System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.29.1-win64\\geckodriver.exe");
-		driver = new FirefoxDriver();	
+        ProfilesIni profileIni = new ProfilesIni();
+        FirefoxProfile profile = profileIni.getProfile("default");
+        FirefoxOptions options = new FirefoxOptions();
+        options.setProfile(profile);
+        driver = new FirefoxDriver(options);	
 	}
 
 	@Test
