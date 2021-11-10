@@ -16,6 +16,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 //import net.codejava.javaee.Bonusrechner;
+import org.openqa.selenium.chrome.*;
 
 public class TestBonusberechnung {
 	
@@ -23,7 +24,7 @@ public class TestBonusberechnung {
 	
 	@BeforeTest
 	public void setUpTest() {
-        // declaration and instantiation of objects/variables
+/*        // declaration and instantiation of objects/variables
     	System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.29.1-win64\\geckodriver.exe");
         ProfilesIni profileIni = new ProfilesIni();
 //        FirefoxProfile profile = profileIni.getProfile("default");
@@ -32,6 +33,13 @@ public class TestBonusberechnung {
 //        options.setProfile(profile);
 //        driver = new FirefoxDriver(options);	
         driver = new FirefoxDriver();	
+*/
+        
+        // declaration and instantiation of objects/variables
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe"); 
+        driver = new ChromeDriver(); 
+	
+	
 	}
 
 	private String newFile(String string) {
