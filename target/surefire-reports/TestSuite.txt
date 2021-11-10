@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 3.539 s <<< FAILURE! - in TestSuite
+com.practice.TestProjektBonusBerechnung.TestBonusberechnung.setUpTest  Time elapsed: 3.159 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 95.0.4638.69 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PC', ip: '192.168.0.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '16.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00AF5843+2512963]
+	Ordinal0 [0x00A8EED1+2092753]
+	Ordinal0 [0x00991F48+1056584]
+	Ordinal0 [0x009B01AA+1180074]
+	Ordinal0 [0x009AC0C5+1163461]
+	Ordinal0 [0x009A990F+1153295]
+	Ordinal0 [0x009D994F+1349967]
+	Ordinal0 [0x009D95BA+1349050]
+	Ordinal0 [0x009D54BB+1332411]
+	Ordinal0 [0x009B1D14+1187092]
+	Ordinal0 [0x009B2B79+1190777]
+	GetHandleVerifier [0x00C70C56+1501718]
+	GetHandleVerifier [0x00D1E97F+2213695]
+	GetHandleVerifier [0x00B78C92+485970]
+	GetHandleVerifier [0x00B77D59+482073]
+	Ordinal0 [0x00A9471D+2115357]
+	Ordinal0 [0x00A98678+2131576]
+	Ordinal0 [0x00A987B2+2131890]
+	Ordinal0 [0x00AA1971+2169201]
+	BaseThreadInitThunk [0x77626A14+36]
+	RtlInitializeExceptionChain [0x7787A9EF+143]
+	RtlInitializeExceptionChain [0x7787A9BA+90]
+
+	at com.practice.TestProjektBonusBerechnung.TestBonusberechnung.setUpTest(TestBonusberechnung.java:40)
+

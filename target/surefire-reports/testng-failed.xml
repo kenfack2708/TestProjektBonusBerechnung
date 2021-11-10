@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.practice.TestProjektBonusBerechnung.TestBonusberechnung">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="ZugoehrigkeitGrosser20"/>
+          <include name="ZugoehrigkeitGrosser15"/>
+          <include name="ZugoehrigkeitGrosser10"/>
+          <include name="ZugoehrigkeitGrosser5"/>
+          <include name="tearDownTest"/>
+          <include name="ZugoehrigkeitGrosser8"/>
+        </methods>
+      </class> <!-- com.practice.TestProjektBonusBerechnung.TestBonusberechnung -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
