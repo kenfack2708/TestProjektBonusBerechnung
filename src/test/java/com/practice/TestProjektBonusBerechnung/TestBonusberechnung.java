@@ -26,10 +26,17 @@ public class TestBonusberechnung {
         // declaration and instantiation of objects/variables
     	System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.29.1-win64\\geckodriver.exe");
         ProfilesIni profileIni = new ProfilesIni();
-        FirefoxProfile profile = profileIni.getProfile("default");
+//        FirefoxProfile profile = profileIni.getProfile("default");
+        FirefoxProfile profile = profileIni.getProfile(newFile("C:\\Users\\User\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bltm4e9l.TestautomationProfile "));
         FirefoxOptions options = new FirefoxOptions();
-        options.setProfile(profile);
+//        options.setProfile(profile);
         driver = new FirefoxDriver(options);	
+//        driver = new FirefoxDriver();	
+	}
+
+	private String newFile(String string) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Test
