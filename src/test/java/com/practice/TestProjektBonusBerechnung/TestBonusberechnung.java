@@ -152,7 +152,7 @@ public class TestBonusberechnung {
         String Name = "Sandrine";
         String Zugoerigkeit = "16";
         String Gehalt = "100000";
-        String SollErgebnis = "Hi Sandrine dein Bonus beträgt 30000.0 Euro";
+        String SollErgebnis = "Hi Sandrine dein Bonus beträgt 31000.0 Euro";
         
         // launch Fire fox and direct it to the Base URL
         driver.get(baseUrl);
